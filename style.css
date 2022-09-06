@@ -67,6 +67,7 @@
 
   .github-icon, .linkedin-icon, .instagram-icon {
     transition: 0.5s ease-out;
+    padding: 1.5%;
   }
 
   .github-icon:hover {
