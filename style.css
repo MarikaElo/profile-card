@@ -65,12 +65,20 @@
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   }
 
- .github-icon, .instagram-icon, .linkedin-icon:hover {
-    transform: scale(1.1);
-    filter: grayscale(50%);
+  .github-icon, .linkedin-icon, .instagram-icon {
+    transition: 0.5s ease-out;
   }
 
-  .github-icon, .instagram-icon, .linkedin-icon {
-    transition: 1s ease-out;
+  .github-icon:hover {
+    font-size: 1.2em;
   }
+
+  .linkedin-icon:hover {
+    font-size: 1.2em;
+  }
+
+  .instagram-icon:hover {
+    font-size: 1.2em;
+  }
+
 
