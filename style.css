@@ -22,6 +22,7 @@
     height: 100vh;
     background: url('assets/background-image.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: "Raleway";
   }
   
   .head, .links {
@@ -51,7 +52,7 @@
   }
   
   .head, .about {
-    margin-bottom: 10%;
+    margin-bottom: 4%;
   }
   
   .content {
@@ -65,7 +66,7 @@
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   }
 
-  .github-icon, .linkedin-icon, .instagram-icon {
+  .github-icon, .linkedin-icon, .facebook-icon {
     transition: 0.5s ease-out;
     padding: 1.5%;
   }
@@ -78,7 +79,7 @@
     font-size: 1.2em;
   }
 
-  .instagram-icon:hover {
+  .facebook-icon:hover {
     font-size: 1.2em;
   }
 
